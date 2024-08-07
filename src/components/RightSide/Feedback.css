@@ -1,0 +1,41 @@
+.Feedback{
+	display: flex;
+	flex-direction: column;
+	background: #121314bd;
+	color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	margin-top: -0.6rem;
+	/* width: 94%; */
+	height:310px;
+	overflow: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+}
+.update>.profile{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.update>.profile>img{
+	width: 30px;
+	height: 30px;;
+}
+.noti>p{
+	font-size: 12px;
+}
+.noti>span{
+	font-size: 16px;
+}
+@media screen and (max-width:1200px){
+	.Feedback{
+		margin-top: 0.01rem;
+		height: 320px;
+	}
+}
+@media screen and (max-width:768px){
+	.Feedback{
+		margin-bottom: 1rem;
+	}
+}

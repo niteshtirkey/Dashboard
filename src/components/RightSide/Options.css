@@ -1,0 +1,63 @@
+.Options{
+	display: flex;
+	flex-direction: column;
+	background: #121314bd;
+	color: #fff;
+	gap: 20px;
+	padding: 20px;
+	border-radius: 8px;
+	/* width: 94%; */
+	margin-top: 0.4rem;
+}
+.action{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.next{
+	background-color: rgba(253, 245, 230, 0.498);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.next>svg{
+	font-size: 20px;
+	padding: 5px;
+}
+.next:hover{
+	background:  rgba(253, 245, 230, 0.215);
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.gols{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.gols>strong{
+	margin-left: 10px;
+}
+.target{
+	/* background-color: #9c490c; */
+	padding: 10px;
+	border-radius: 50%;
+	display: flex;justify-content: center;
+	align-items: center;
+}
+.target>svg{
+font-size: 22px;
+}
+@media screen and (max-width:1200px){
+	.Options{
+		margin-top: 1.8rem;
+		margin-bottom: 0.5rem;
+	}
+}
+@media screen and (max-width:768px){
+	.Options{
+		margin-top: 0rem;
+		margin-bottom: 0.5rem;
+	}
+}

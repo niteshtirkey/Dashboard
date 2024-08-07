@@ -1,0 +1,36 @@
+.graph {
+	color: white; 
+	margin-top: 10px;
+	background: #121314bd;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 10px;
+  }
+  
+  .bar text {
+	fill: white !important; 
+  }
+  .bar-chart-container {
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	
+  }
+  .graph .bar {
+	border-radius: 10px !important; /* Adjust as necessary */
+	overflow: hidden; 
+  }
+  @media screen and (max-width:1200px){
+	.graph{
+		width: 170%;
+		/* margin-top: 1rem; */
+	}
+  }
+  @media screen and (max-width:768px){
+	.graph{
+		position: relative;
+		align-items: center;
+		width: 90%;
+	}
+  }
